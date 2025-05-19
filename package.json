@@ -52,6 +52,7 @@
   },
   "dependencies": {
     "@expo/react-native-action-sheet": "^4.1.1",
+    "@stream-io/flat-list-mvcp": "^0.10.3",
     "@types/lodash.isequal": "^4.5.8",
     "dayjs": "^1.11.13",
     "lodash.isequal": "^4.5.0",

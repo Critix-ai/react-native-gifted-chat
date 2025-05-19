@@ -6,14 +6,13 @@ import {
   Platform,
   LayoutChangeEvent,
   ListRenderItemInfo,
-  FlatList,
   CellRendererProps,
 } from 'react-native'
 import Animated, { runOnJS, useAnimatedScrollHandler, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import { ReanimatedScrollEvent } from 'react-native-reanimated/lib/typescript/hook/commonTypes'
 import DayAnimated from './components/DayAnimated'
 import Item from './components/Item'
-
+import { FlatList } from '@stream-io/flat-list-mvcp'
 import { LoadEarlier } from '../LoadEarlier'
 import { IMessage } from '../types'
 import TypingIndicator from '../TypingIndicator'
